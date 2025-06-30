@@ -29322,7 +29322,7 @@ atR(a){var s=0,r=A.Q(t.N),q,p,o,n,m,l,k
 var $async$atR=A.M(function(b,c){if(b===1)return A.N(c,r)
 while(true)switch(s){case 0:n=t.N
 m=A.au(["Content-Type","application/json"],n,n)
-l=A.fG("http://192.168.29.229:3000/api/chat",0,null)
+l=A.fG("https://portfolio-flutter-web.onrender.com/api/chat",0,null)
 s=3
 return A.T($.aK8().un("POST",l,m,B.ci.W6(A.au(["message",a],n,n),null),null),$async$atR)
 case 3:k=c
